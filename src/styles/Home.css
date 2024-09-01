@@ -1,0 +1,193 @@
+body{
+    font-family: "Anton";
+    background-image: url(../img/Background.jpeg);
+    background-size: cover;
+}
+
+
+/*HEADER*/
+.banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.7);
+
+}
+
+.banner img {
+    width: 100%; 
+    height: auto; 
+}
+
+/*SECTION 1*/
+
+.section-1{
+    text-align: center;
+    background-color: #FDFDFD;
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    padding-top: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+.section-1 h3{
+    font-family: "Corinthia";
+    color: #BE191D;
+    font-size: 70px;
+    margin: 0;
+}
+.section-1 h2{
+    font-size: 80px;
+    margin: 0;
+    padding-bottom: 45px;
+}
+
+.pizzas-contentido {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px; 
+}
+
+.pizzas-contentido h2{
+    font-size: 50px;
+    padding: 10px 0 0 0;
+    transition: color 0.3s ease-in-out; /* Hover */
+}
+
+.pizza {
+    text-align: center; 
+}
+
+.pizzas-contentido img {
+    transition: transform 0.4s ease-in-out; /* Hover */
+}
+
+/*HOVER PARA SECCIÓN 1*/
+
+.pizzas-contentido img:hover {
+    transform: scale(1.05);
+}
+
+.pizzas-contentido h2:hover {
+    color: #BE191D;
+    cursor: pointer;
+}
+
+.section-1 button{
+    background-color: #BE191D;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 50px;
+    font-size: 40px;
+    cursor: pointer;
+    margin: 35px ;
+    font-family: "Anton";
+}
+
+/*SECTION 2*/
+
+.section-2{
+    background-image: url('../img/Sección\ 2.png');
+    background-size: cover; 
+    background-position: center;
+    height: 100%;
+    text-align: center;
+    max-width: 1440px;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    padding-bottom: 80px;
+}
+
+.section-2 h3{
+    font-size: 70px;
+    font-family: "Corinthia";
+    color: white;
+    margin: 0;
+    padding-top: 60px;
+}
+
+.section-2 h2{
+    color: #BE191D;
+    font-size: 70px;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.imagen-contenido2 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 35px;
+    margin: 0 40px;
+}
+
+.complementos {
+    text-align: center;
+}
+
+.complementos img {
+    max-width: 100%; 
+    transition: transform 0.4s ease-in-out; /* Hover */
+}
+
+/*HOVER PARA SECCIÓN 2*/
+
+.complementos img:hover{
+    transform: scale(1.05);
+}
+
+
+/*SECTION 3*/
+
+.section-3{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    max-width: 1440px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+.nosotros-contenido{
+    width: 600px;
+    font-size: 37px;
+    font-family: "Antonio", sans-serif;
+    margin: 90px 40px;
+}
+
+.nosotros-contenido h2{
+    font-family: "Anton";
+    font-size: 70px;
+    margin: 0;
+}
+
+.nosotros-contenido span{
+    color: #BE191D;
+}
+
+.section-3 button{
+    background-color: #BE191D;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 50px;
+    font-size: 40px;
+    cursor: pointer;
+    margin: 30px 0;
+    font-family: "Anton";
+}
+
+.section-3 img{
+    width: 500px;
+    margin-right: 40px;
+
+}

@@ -1,0 +1,89 @@
+.section1-menu h2{
+    font-family: "Corinthia";
+    color: #ffffff;
+    font-size: 100px;
+    margin: 0;
+    padding: 15px 0 5px;
+}
+
+.section1-menu {
+    font-family: "Antonio", sans-serif;
+    font-size: 26px;
+    text-align: center;
+    max-width: 1440px;
+    background-color: #BE191D; 
+    margin: 0 auto;
+}
+
+main {
+    background-color: #f3f3f3; 
+    max-width: 1440px;
+    margin: 0 auto; 
+    color: #131313; 
+    padding: 30px; 
+}
+
+.container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.container-1 img {
+    height: 200px;
+    width: 100%;
+    display: block; 
+    margin: auto; 
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+}
+
+.class-button {
+    background-color: #BE191D;  
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer; 
+    font-size: 16px; 
+}
+
+.class-number {
+    border: 1px solid #ddd; 
+    border-radius: 4px;
+    width: 50px;
+    height: 30px;
+    text-align: center; 
+}
+
+.buy {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center; 
+}
+
+
+.class-button:hover {
+    background-color: white;  
+    color: #BE191D;
+    border: 1px solid #BE191D; 
+}
+
+
+.p-alinear {
+    width: 100%; 
+    text-align: center; 
+    margin: 0 auto; 
+}
+
+
