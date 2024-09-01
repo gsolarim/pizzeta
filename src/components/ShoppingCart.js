@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/ShoppingCart.css';
 
-const ShoppingCart = () => {
-    const [cartItems, setCartItems] = useState([]);
-    const [total, setTotal] = useState(0);
+let ShoppingCart = () => {
+    let [cartItems, setCartItems] = useState([]);
+    let [total, setTotal] = useState(0);
 
     useEffect(() => {
         // Recupera el carrito desde localStorage
-        const carrito = JSON.parse(localStorage.getItem('carrito')) || [];
+        let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
         setCartItems(carrito);
         calculateTotal();
     }, []);
@@ -16,19 +16,19 @@ const ShoppingCart = () => {
         calculateTotal();
     }, [cartItems]);
 
-    const calculateTotal = () => {
-        const totalAmount = cartItems.reduce((acc, item) => acc + item.total, 0);
+    let calculateTotal = () => {
+        let totalAmount = cartItems.reduce((acc, item) => acc + item.total, 0);
         setTotal(totalAmount);
     };
 
-    const handleRemoveItem = (index) => {
-        const newCartItems = cartItems.filter((_, i) => i !== index);
+    let handleRemoveItem = (index) => {
+        let newCartItems = cartItems.filter((_, i) => i !== index);
         setCartItems(newCartItems);
         localStorage.setItem('carrito', JSON.stringify(newCartItems)); // Actualiza localStorage
     };
 
     return (
-        <div className="cart-container"> {/* Añadir clase para el fondo */}
+        <div className="cart-container"> {}
             <h1 className="carrito">CARRITO COMPRAS</h1>
             <table id="tabla-pedidos">
                 <thead>

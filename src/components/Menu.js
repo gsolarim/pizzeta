@@ -15,9 +15,9 @@ import mashut12 from '../img/mashut12.png';
 
 
 function MenuPizzas() {
-  const Agregar = (nombre, precio, cantidad) => {
+  let Agregar = (nombre, precio, cantidad) => {
     if (cantidad > 0) {
-      const item = {
+      let item = {
         nombre,
         precio,
         cantidad,
@@ -25,7 +25,7 @@ function MenuPizzas() {
       };
       
       // Recupera los items actuales del carrito desde localStorage
-      const carrito = JSON.parse(localStorage.getItem('carrito')) || [];
+      let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
 
       // Añade el nuevo item al carrito
       carrito.push(item);
